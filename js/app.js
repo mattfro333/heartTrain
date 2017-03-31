@@ -4,17 +4,17 @@ angular.module('sh',['ui.router']).config(function($stateProvider, $urlRouterPro
             .state('home', {
               url: '/',
               templateUrl: '../views/home.html',
-              // controller: 'mainCon'
+              controller: 'mainCtrl'
             })
             .state('battle', {
               url: '/battle',
               templateUrl: '../views/battle.html',
               // controller: 'heroCon'
             })
-            .state('cart', {
-              url: '/cart',
-              templateUrl: '../views/cart.html',
-              // controller: 'payCon'
+            .state('profile', {
+              url: '/profile',
+              templateUrl: '../views/profile.html',
+              controller: 'profileCtrl'
             })
 
             .state('checkout', {

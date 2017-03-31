@@ -4,7 +4,9 @@ const express =  require('express'),
       massive = require('massive'),
       passport =  require('passport'),
       Auth0Strategy = require('passport-auth0'),
-      config = require('./config');
+      config = require('./config'),
+      profileCtrl = require('./js/controllers/profileCtrl.js'),
+      userCtrl = require('./js/controllers/userCtrl.js');
       // stripe = require('stripe')('sk_test_ojIEBahfiCZioN7BIQjalw3A'),
       // stripe = require('passport-stripe'),
       // cors = require('cors');
@@ -28,7 +30,9 @@ const massiveInstance = massive.connectSync({connectionString: 'ywrnnhex://ywrnn
 
 app.set('db', massiveInstance);
 const db = app.get('db');
+
 process.setMaxListeners(0);
+
 passport.use(new Auth0Strategy({
   domain: config.auth0.domain,
   clientID: config.auth0.clientID,
@@ -157,6 +161,9 @@ app.get('/api/payment/:paymentId', paymentCtrl.getPayment);
 app.post('/api/infopayment', paymentCtrl.create);
 app.put('/api/payment/:paymentId', paymentCtrl.update);
 app.delete('/api/payment/:paymentId', paymentCtrl.delete)
+
+app.post('/api/login', userCtrl.login);
+app.get('/api/profiles', profileCtrl.profile);
 
 app.listen(3000, function() {
   console.log('Connected on 3000')
