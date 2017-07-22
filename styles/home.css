@@ -1,0 +1,12 @@
+.home {
+  background-color: black;
+  font-size: 3em;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homeFont {
+  color:white;
+
+}
