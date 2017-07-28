@@ -1,11 +1,11 @@
 var profiles = [
   {
-    name: 'Preston McNeil',
+    name: 'Shoot Darn',
     pic: 'https://s3.amazonaws.com/uifaces/faces/twitter/ashleyford/128.jpg',
     status: 'Everything is bigger in Texas'
   },
   {
-    name: 'Ryan Rasmussen',
+    name: 'Want to host my Group project',
     pic: 'https://s3.amazonaws.com/uifaces/faces/twitter/jadlimcaco/128.jpg',
     status: 'RR Rules'
   },
