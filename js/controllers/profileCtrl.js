@@ -1,23 +1,19 @@
 var profiles = [
   {
-    name: 'Shoot Darn',
-    pic: 'https://s3.amazonaws.com/uifaces/faces/twitter/ashleyford/128.jpg',
-    status: 'Everything is bigger in Texas'
+    name: 'Example 1',
+    src: '../../images/CAH1.jpg'
   },
   {
-    name: 'Want to host my Group project',
-    pic: 'https://s3.amazonaws.com/uifaces/faces/twitter/jadlimcaco/128.jpg',
-    status: 'RR Rules'
+    name: 'Example 2',
+    src: '../../images/CAH2.jpg'
   },
   {
     name: 'Terri Ruff',
-    pic: 'https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg',
-    status: 'Wow, I typed out hunter2 and all you saw was ******?!?!??'
+    pic: 'https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg'
   },
   {
     name: 'Lindsey Mayer',
-    pic: 'https://s3.amazonaws.com/uifaces/faces/twitter/nzcode/128.jpg',
-    status: 'OMG MITTENS DID THE CUTEST THING TODAY'
+    pic: 'https://s3.amazonaws.com/uifaces/faces/twitter/nzcode/128.jpg'
   }
 ];
 

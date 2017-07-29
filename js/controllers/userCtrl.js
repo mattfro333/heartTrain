@@ -2,7 +2,7 @@ var users = [
   {
     name: 'a',
     password: 'a',
-    friends: ['Lindsey Mayer', 'Terri Ruff']
+    friends: ['Example 1', 'Example 2']
   },
   {
     name: 'Ryan Rasmussen',
