@@ -8,12 +8,12 @@ var profiles = [
     src: '../../images/CAH2.jpg'
   },
   {
-    name: 'Terri Ruff',
-    pic: 'https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg'
+    name: 'Example 3',
+    pic: '../../images/CAH3.jpg'
   },
   {
-    name: 'Lindsey Mayer',
-    pic: 'https://s3.amazonaws.com/uifaces/faces/twitter/nzcode/128.jpg'
+    name: 'Example 4',
+    pic: '../../images/CAH1.jpg'
   }
 ];
 
