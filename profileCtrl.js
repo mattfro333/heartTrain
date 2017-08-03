@@ -1,8 +1,8 @@
 angular.module('sh')
-.controller('profileCtrl', function( $scope, friendService ) {
- friendService.getFriends().then(function(response){
+.controller('profileCtrl', function( $scope, cardService ) {
+ cardService.getcards().then(function(response){
    $scope.currentUser = response.currentUser;
-   $scope.friends = response.friends;
+   $scope.cards = response.cards;
  })
 
 });

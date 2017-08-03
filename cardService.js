@@ -1,5 +1,5 @@
 angular.module('sh')
-.service('friendService', function( $http ) {
+.service('cardService', function( $http ) {
 
 
     this.login = function( user ) {
@@ -13,7 +13,7 @@ angular.module('sh')
       })
     };
 
-    this.getFriends = function() {
+    this.getcards = function() {
     	return $http({
         method: 'GET',
         url: '/api/profiles'
