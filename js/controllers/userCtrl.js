@@ -2,22 +2,22 @@ var users = [
   {
     name: 'a',
     password: 'a',
-    cards: ['Example 1','Example 2','Example 3','Example 4']
+    friends: ['Example 1', 'Example 2']
   },
   {
     name: 'Ryan Rasmussen',
     password: '$akgfl#',
-    cards: ['Lindsey Mayer']
+    friends: ['Lindsey Mayer']
   },
   {
     name: 'Terri Ruff',
     password: 'hunter2',
-    cards: ['Lindsey Mayer', 'Preston McNeil']
+    friends: ['Lindsey Mayer', 'Preston McNeil']
   },
   {
     name: 'Lindsey Mayer',
     password: '777mittens777',
-    cards: ['Preston McNeil', 'Ryan Rasmussen', 'Terri Ruff']
+    friends: ['Preston McNeil', 'Ryan Rasmussen', 'Terri Ruff']
   }
 ];
 
