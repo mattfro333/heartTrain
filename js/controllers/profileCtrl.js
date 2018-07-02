@@ -1,19 +1,23 @@
 var profiles = [
   {
-    name: 'Example 1',
+    name: 'Card 1',
     src: '../../images/CAH1.jpg'
   },
   {
-    name: 'Example 2',
+    name: 'Card 2',
     src: '../../images/CAH2.jpg'
   },
   {
-    name: 'Example 3',
+    name: 'Card 3',
     pic: '../../images/CAH3.jpg'
   },
   {
-    name: 'Example 4',
+    name: 'Card 4',
     pic: '../../images/CAH1.jpg'
+  },
+  {
+    name: 'Card 5',
+    pic: '../../images/CAH3.jpg'
   }
 ];
 
