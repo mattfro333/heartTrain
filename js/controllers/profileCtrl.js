@@ -25,15 +25,15 @@ var exports = module.exports = {}
 
 exports.profile = function(req, res) {
   var arr2 = [];
-  for(var i = 0; i < req.session.currentUser.friends.length; i++){
+  for(var i = 0; i < req.session.User.friends.length; i++){
     for(var j = 0; j < profiles.length; j++){
-      if(req.session.currentUser.friends[i] == profiles[j].name){
+      if(req.session.User.friends[i] == profiles[j].name){
         arr2.push(profiles[j]);
        }
       }
     }
     res.status(200).json({
-  currentUser: req.session.currentUser,
+  User: req.session.User,
   friends: arr2
 })
   }

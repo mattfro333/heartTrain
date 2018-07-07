@@ -26,7 +26,7 @@ var exports = module.exports = {}
 exports.login = function(req, res) {
     for(var i = 0; i < users.length; i++){
       if(users[i].name === req.body.name && users[i].password === req.body.password){
-        req.session.currentUser = users[i];
+        req.session.User = users[i];
          res.send({ userFound: true });
          return;
       }
