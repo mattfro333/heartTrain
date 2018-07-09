@@ -6,21 +6,15 @@ angular.module('sh',['ui.router']).config(function($stateProvider, $urlRouterPro
               templateUrl: '../views/home.html',
               controller: 'mainCtrl'
             })
-            .state('battle', {
-              url: '/battle',
-              templateUrl: '../views/battle.html',
-              // controller: 'heroCon'
-            })
             .state('profile', {
               url: '/profile',
               templateUrl: '../views/profile.html',
               controller: 'profileCtrl'
             })
-
-            .state('checkout', {
-              url: '/checkout',
-              templateUrl: '../views/pay.html',
-              // controller: 'payCon'
+            .state('cart', {
+              url: '/cart',
+              templateUrl: '../views/cart.html',
+              controller: 'cartCtrl'
             })
             $urlRouterProvider.otherwise('/')
       });
