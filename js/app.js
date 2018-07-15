@@ -14,7 +14,12 @@ angular.module('sh',['ui.router']).config(function($stateProvider, $urlRouterPro
             .state('cart', {
               url: '/cart',
               templateUrl: '../views/cart.html',
-              controller: 'StoreController'
+              controller: 'CartCtrl'
+            })
+            .state('checkout', {
+              url: '/checkout',
+              templateUrl: '../views/checkout.html',
+              controller: 'CheckoutCtrl'
             })
             $urlRouterProvider.otherwise('/')
       });
