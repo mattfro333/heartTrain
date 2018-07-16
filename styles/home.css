@@ -9,7 +9,7 @@
   align-items: center;
 }
 .homeFont {
-  color:white;
+  color:red;
   position: relative;
   display: flex;
   flex-direction: column;
