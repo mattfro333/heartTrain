@@ -1,5 +1,5 @@
 angular.module('sh')
-.controller('CartCtrl', ['$scope','$cookies', function($scope,$cookies){
+.controller('CartCtrl', ['$scope', function($scope){
 
 		$scope.products = productsData;
 		$scope.cart = [];
