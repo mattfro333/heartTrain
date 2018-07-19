@@ -10,6 +10,7 @@
 }
 .homeFont {
   color:red;
+  font-weight: bold;
   position: relative;
   display: flex;
   flex-direction: column;
