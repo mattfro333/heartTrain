@@ -27,10 +27,10 @@ $scope.total = 0;
 var exports = module.exports = {}
 
 exports.login = function(req, res) {
-    for(var i = 0; i < productsData.length; i++){
-      if(productsData[i].name === req.body.name && productsData[i].password === req.body.password){
-        req.session.productsData = productsData[i];
-         res.send({ userFound: true });
+    for(var i = 0; i < products.length; i++){
+      if(products[i].name === req.body.name){
+        req.session.products = products[i];
+         res.send({ userFound: true })
          return;
       }
     }

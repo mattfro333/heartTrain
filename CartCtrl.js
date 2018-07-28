@@ -1,8 +1,8 @@
 angular.module('sh')
-.controller('cartCtrl', function( $scope, friendService ) {
- friendService.getFriends().then(function(response){
-   $scope.User = response.User;
-   $scope.friends = response.friends;
+.controller('cartCtrl', function( $scope, cartService ) {
+ friendService.getProducts().then(function(response){
+   $scope.products = response.products;
+
  })
 
 });

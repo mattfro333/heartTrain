@@ -13,7 +13,7 @@ angular.module('sh')
       })
     };
 
-    this.getcards = function() {
+    this.getProducts = function() {
     	return $http({
         method: 'GET',
         url: '/api/profiles'
