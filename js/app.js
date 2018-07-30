@@ -14,7 +14,7 @@ angular.module('sh',['ui.router']).config(function($stateProvider, $urlRouterPro
             .state('cart', {
               url: '/cart',
               templateUrl: '../views/cart.html',
-              controller: 'CartCtrl'
+              controller: 'shoppingCtrl'
             })
             .state('checkout', {
               url: '/checkout',
