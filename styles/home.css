@@ -11,6 +11,7 @@
 .homeFont {
   color:red;
   font-weight: bold;
+  font-family: cursive;
   font-size: 1em;
   position: relative;
   display: flex;
